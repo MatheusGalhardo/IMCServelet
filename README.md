@@ -1,19 +1,19 @@
 # IMCServelet
 Exercício IMC 
 
-#Matheus M Galhardo
+# Matheus M Galhardo
 
-CalculoIMCServlet
+#### CalculoIMCServlet
 
-Calculando o Índice de massa corporal (IMC) com servlet.
+# Calculando o Índice de massa corporal (IMC) com servlet.
 
 Para rodar o projeto
 
-Para fazer clone.
+<h1> Para fazer clone </h1> 
 
 git clone https://github.com/mayconribeirocosta/CalculoIMCServlet
 
-Para rodar com o Tomcat.
+<h1> Para rodar com o Tomcat. </h1>
 
 mvnw org.apache.tomcat.maven:tomcat7-maven-plugin:run -Dmaven.tomcat.port=9090
 
