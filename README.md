@@ -1,9 +1,7 @@
 # IMCServelet
-Exercício IMC 
-
 # Matheus M Galhardo
 
-#### CalculoIMCServlet
+ CalculoIMCServlet
 
 # Calculando o Índice de massa corporal (IMC) com servlet.
 
@@ -19,17 +17,17 @@ mvnw org.apache.tomcat.maven:tomcat7-maven-plugin:run -Dmaven.tomcat.port=9090
 
 ou ./mvnw tomcat7:run
 
-No Linux, use ./mvnw ao invés de apenas mvnw, como no Windows. Além disso, pelo menos uma vez, é preciso dar permissão de execução ao arquivo de script mvnw com o comando chmod +x mvnw.
+# No Linux, use ./mvnw ao invés de apenas mvnw, como no Windows. Além disso, pelo menos uma vez, é preciso dar permissão de execução ao arquivo de script mvnw com o comando chmod +x mvnw.
 
-Para acessar a aplicação
+# Para acessar a aplicação
 
 http://localhost:9090/CalculoIMCServlet/mvc/calculo-imc em qualquer navegador.
 
-Para "empacotar" a aplicação.
+# Para "empacotar" a aplicação.
 
 mvnw package
 
-Para "preparar" o projeto
+# Para "preparar" o projeto
 
 Para "embutir" o Maven no projeto.
 
