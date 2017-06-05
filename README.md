@@ -9,7 +9,7 @@ Para rodar o projeto
 
 <h1> Para fazer clone </h1> 
 
-git clone https://github.com/mayconribeirocosta/CalculoIMCServlet
+git clone https://github.com/MatheusGalhardo/IMCServelet
 
 <h1> Para rodar com o Tomcat. </h1>
 
