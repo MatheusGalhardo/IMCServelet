@@ -63,7 +63,7 @@
 
 
 <div class="alert alert-success" role="alert" >${condicao}</div>
-<div class="alert alert-success" role="alert" >O IMC  : ${calcularimc}</div> 
+<div class="alert alert-success" role="alert"  rendered="${calcularimc} != null" >O IMC  : ${calcularimc}</div> 
    
 </div>
   </body>
