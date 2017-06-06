@@ -21,7 +21,7 @@ ou ./mvnw tomcat7:run
 
 # Para acessar a aplicação
 
-http://localhost:9090/IMCServlet/mvc/calculo-imc em qualquer navegador.
+http://localhost:9090/CalculoIMCServlet/mvc/calculo-imc em qualquer navegador.
 
 # Para "empacotar" a aplicação.
 
