@@ -28,7 +28,7 @@
         
 
         <div class="Altura">
-        <label for="atura" class="sr-only">Altura :</label>
+        <label for="altura" class="sr-only">Altura :</label>
        <input type="text"  name="altura" class="form-control" placeholder="Digite a altura" required/>
         
 
@@ -63,7 +63,7 @@
 
 
 <div class="alert alert-success" role="alert" >${condicao}</div>
-<div class="alert alert-success" role="alert" >O IMC é : ${calcularimc}</div> 
+<div class="alert alert-success" role="alert" >O IMC  : ${calcularimc}</div> 
    
 </div>
   </body>

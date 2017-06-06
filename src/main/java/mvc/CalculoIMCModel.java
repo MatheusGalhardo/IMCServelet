@@ -10,9 +10,8 @@ public class CalculoIMCModel {
         private float peso;
         private float imc;
 
-	public CalculoIMCModel(float altura, float peso) {
-		this.altura = altura;
-                this.peso = peso;
+	public CalculoIMCModel() {
+		
 	}
      
     public float getAltura() {
@@ -55,15 +54,16 @@ public class CalculoIMCModel {
     
         
 
-	public Float calcularimc(float imc) {
+	public Float calcularimc(float peso, float altura) {
              
-            imc = peso/ (altura*altura);
+            Float resultado = peso/ (altura*altura);
           
-               return imc;  
+               return resultado;  
         }
-        public String condicaoIMC (String condicao){ 
-			imc = peso/ (altura*altura);
-            
+        public String condicaoIMC (float imc){ 
+
+        	String condicao = "";
+        	
             if(imc < 18.5)  { 
                  condicao = "Abaixo do peso"; 
             
